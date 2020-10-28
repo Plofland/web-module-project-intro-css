@@ -73,21 +73,22 @@ nav {
 }
 
 .button:hover {
-    animation: bounce 1s linear;
+    animation: bounce 1s ease-in-out;
+    /*transform: translateY(-8px);*/
 }
 
 @keyframes bounce{
-    10%, 50%, 80%, to {
+    0%, 
+    20%, 
+    60%,
+    100% {
         transform: translateY(0)
     }
     40% {
         transform: translateY(-30px);
     }
-    70% {
-        transform: translateY(-15px);
-    }
-    90% {
-        transform: translateY(-4px);
+    80% {
+        transform: translateY(-20px);
     }
 }
 
