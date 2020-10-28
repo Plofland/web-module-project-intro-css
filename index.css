@@ -11,7 +11,7 @@ nav {
     border-radius: 10px;
     text-decoration: none;
     padding: 1%;
-    
+    color: #FFFAFA;
 }
 
 .plan-btn {
@@ -19,6 +19,7 @@ nav {
 }
 .learn-btn {
     background-color: #5ED3EB;
+    
 }
 .get-btn {
     background-color: #FFCD69;
@@ -34,6 +35,7 @@ header {
 
 .headline {
     width: 60%;
+    text-align: center;
 }
 
 .headline-img {
@@ -49,16 +51,30 @@ header {
     background-color: #DDB9A3;
     padding: 1%;
     color: #FFFAFA;
+    text-align: center;
 }
 
-.fire {
-
+.icon {
+    width: 60%;
+    margin: 0 auto;
 }
 
-.camp {
-
+.fire-camp {
+    margin: 4% auto;
+    width: 20%;
+    text-align: center;
 }
 
 footer {
     background-color: #F9E7DC;
+}
+
+#footer-img {
+    width: 100%;
+    background-image: url(assets/footer_img.jpg);
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin: 0;
+    height: 15%;
 }
