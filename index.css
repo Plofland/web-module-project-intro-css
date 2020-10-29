@@ -1,0 +1,188 @@
+/*The Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Styling*/
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.button {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1%;
+    color: #FFFAFA;
+    margin: 4%;
+}
+
+
+/*Could not get my hover bounce buttons to work*/
+
+/*.button:hover {
+    animation-name: bounce 1s linear;
+    background-color: black;
+}
+
+@keyframes bounce{
+    0%, 
+    20%, 
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    80% {
+        transform: translateY(-20px);
+    }
+}*/
+
+.plan-btn {
+    background-color: #FF764E;
+    transition: .5s ease-in-out;
+}
+
+.plan-btn:hover {
+    background-color: #34b0b0;
+}
+
+.learn-btn {
+    background-color: #5ED3EB;
+    transition: .5s ease-in-out;
+}
+
+.learn-btn:hover {
+    background-color: #eb885e; 
+}
+
+.get-btn {
+    background-color: #FFCD69;
+    transition: .5s ease-in-out
+}
+
+.get-btn:hover {
+    background-color: #9b69ff;
+}
+
+header {
+    display: inline-block;
+}
+
+#title {
+    font-family: 'Chelsea Market', cursive;
+}
+
+#head-img {
+    border-radius: 50%;
+    width: 25%;
+    margin: 4% 6%;
+}
+
+.headline {
+    width: 60%;
+    text-align: center;
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 9%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#headline-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description {
+    background-color: #DDB9A3;
+    padding: 1%;
+    color: #FFFAFA;
+    text-align: center;
+    margin: 4%;
+}
+
+.icon {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.fire-camp {
+    margin: 4% auto;
+    width: 25%;
+    text-align: center;
+    font-size: 80%;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+#footer-img {
+    max-width: 100%;
+    background-image: url(assets/footer_img.jpg);
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    height: 10vh;
+}
