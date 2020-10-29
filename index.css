@@ -72,9 +72,12 @@ nav {
     margin: 4%;
 }
 
-.button:hover {
-    animation: bounce 1s ease-in-out;
-    /*transform: translateY(-8px);*/
+
+/*Could not get my hover bounce buttons to work*/
+
+/*.button:hover {
+    animation-name: bounce 1s linear;
+    background-color: black;
 }
 
 @keyframes bounce{
@@ -82,7 +85,7 @@ nav {
     20%, 
     60%,
     100% {
-        transform: translateY(0)
+        transform: translateY(0);
     }
     40% {
         transform: translateY(-30px);
@@ -90,18 +93,33 @@ nav {
     80% {
         transform: translateY(-20px);
     }
-}
+}*/
 
 .plan-btn {
     background-color: #FF764E;
+    transition: .5s ease-in-out;
+}
+
+.plan-btn:hover {
+    background-color: #34b0b0;
 }
 
 .learn-btn {
     background-color: #5ED3EB;
+    transition: .5s ease-in-out;
+}
+
+.learn-btn:hover {
+    background-color: #eb885e; 
 }
 
 .get-btn {
     background-color: #FFCD69;
+    transition: .5s ease-in-out
+}
+
+.get-btn:hover {
+    background-color: #9b69ff;
 }
 
 header {
